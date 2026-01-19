@@ -11,4 +11,4 @@ def test_home_response_content():
     client = app.test_client()
     response = client.get("/")
     assert response.json == {"message": "API DevSecOps OK"}
-
+    
